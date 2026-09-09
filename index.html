@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>A Little World of Tian Xiwei ✦</title>
+<meta name="description" content="Fan-made scrapbook website dedicated to Tian Xiwei / 田曦薇.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700;800&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="loader"><div class="loader-star">✦</div><p>opening my little Tian Xiwei world...</p></div>
+<div class="scroll-progress"></div>
+<div class="sparkles" aria-hidden="true"></div>
+
+<header class="navbar">
+  <a class="brand" href="#home"><span>✦</span> Tian Xiwei</a>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#journey">Journey</a>
+    <a href="#works">Works</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#letter">Letter</a>
+  </nav>
+  <div class="nav-tools">
+    <button id="themeToggle" class="icon-btn" title="Toggle dark mode" aria-label="Toggle dark mode">☾</button>
+    <button id="musicToggle" class="icon-btn" title="Play a tiny ambient chime" aria-label="Play ambient sound">♫</button>
+    <button class="menu-btn" aria-label="Open menu">☰</button>
+  </div>
+</header>
+
+<div class="mobile-nav" id="mobileNav">
+  <a href="#about">About</a><a href="#journey">Journey</a><a href="#works">Works</a><a href="#gallery">Gallery</a><a href="#letter">Letter</a>
+</div>
+
+<main>
+<section id="home" class="hero">
+  <div class="hero-copy reveal">
+    <span class="eyebrow">A LITTLE FAN-MADE WORLD ✦</span>
+    <h1>Tian<br><em>Xiwei</em></h1>
+    <p class="hero-sub">田曦薇 · Tián Xīwēi</p>
+    <p class="intro">A little corner for the actress whose bright energy, memorable characters, and growing journey make every role worth watching.</p>
+    <div class="hero-actions">
+      <a class="btn primary" href="#about">Explore her world <span>→</span></a>
+      <a class="btn ghost" href="#gallery">Open gallery</a>
+    </div>
+    <div class="tiny-status"><span></span> currently in my favorites</div>
+  </div>
+
+  <div class="hero-visual reveal-right">
+    <div class="sun"></div>
+    <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+    <div class="photo-frame" data-tilt>
+      <img src="images/tian-xiwei-1.jpg" alt="Tian Xiwei">
+      <div class="photo-note">hello, Vivian! ♡</div>
+    </div>
+    <div class="sticker star">✦</div><div class="sticker smile">☻</div>
+    <div class="floating-card">made with<br><strong>love & sunshine</strong></div>
+  </div>
+</section>
+
+<section id="about" class="section about">
+  <div class="section-heading reveal">
+    <span class="eyebrow">01 · GET TO KNOW HER</span>
+    <h2>More than a<br><em>pretty smile.</em></h2>
+  </div>
+  <div class="about-grid">
+    <div class="about-text reveal">
+      <p>Tian Xiwei (田曦薇) is a Chinese actress born in Chongqing on 14 October 1997. She graduated from Shanghai Theatre Academy and began her screen career in 2018.</p>
+      <p>From youthful characters to historical fantasy and romance, her filmography shows a journey of growing roles and wider recognition.</p>
+      <div class="mini-quote">“Keep growing, keep shining, keep becoming.”</div>
+    </div>
+    <div id="profileGrid" class="profile-grid reveal-stagger"></div>
+  </div>
+</section>
+
+<section id="journey" class="section journey">
+  <div class="section-heading centered reveal">
+    <span class="eyebrow">02 · HER JOURNEY</span>
+    <h2>A timeline of<br><em>little milestones.</em></h2>
+  </div>
+  <div id="timeline" class="timeline reveal-stagger"></div>
+</section>
+
+<section id="works" class="section works">
+  <div class="section-heading reveal">
+    <span class="eyebrow">03 · FILMOGRAPHY</span>
+    <h2>Roles I’d love<br><em>to remember.</em></h2>
+  </div>
+  <div class="filter-row reveal">
+    <button class="filter active" data-filter="all">All</button>
+    <button class="filter" data-filter="2026">2026</button>
+    <button class="filter" data-filter="2025">2025</button>
+    <button class="filter" data-filter="2024">2024</button>
+    <button class="filter" data-filter="older">Before 2024</button>
+  </div>
+  <div id="worksGrid" class="works-grid reveal-stagger"></div>
+</section>
+
+<section class="section favorites">
+  <div class="section-heading centered reveal">
+    <span class="eyebrow">04 · FAVORITE CHARACTERS</span>
+    <h2>Little pieces of<br><em>her world.</em></h2>
+  </div>
+  <div id="favoritesGrid" class="favorites-grid reveal-stagger"></div>
+</section>
+
+<section id="gallery" class="section gallery-section">
+  <div class="section-heading reveal">
+    <span class="eyebrow">05 · PHOTO DIARY</span>
+    <h2>Little moments,<br><em>saved here.</em></h2>
+  </div>
+  <div id="galleryGrid" class="gallery-grid reveal-stagger"></div>
+</section>
+
+<section class="section pursuit">
+  <div class="pursuit-card reveal">
+    <div class="pursuit-copy">
+      <span class="eyebrow">SPECIAL PAGE · 2026</span>
+      <h2><em>Pursuit</em> of Jade</h2>
+      <p>A dedicated little corner for one of Tian Xiwei's 2026 projects, with a cinematic black-red-gold mood inside the otherwise bright fan diary.</p>
+      <a class="btn primary" href="pursuit-of-jade.html">Enter the page →</a>
+    </div>
+    <img src="images/pursuit-of-jade.jpg" alt="Tian Xiwei in Pursuit of Jade">
+  </div>
+</section>
+
+<section id="letter" class="section letter-section">
+  <div class="letter reveal">
+    <div class="letter-pin">✦</div>
+    <span class="eyebrow">06 · A LITTLE LETTER</span>
+    <h2>Dear Tian Xiwei,</h2>
+    <p>Maybe you will never know who is behind this little website. But somewhere, a fan is cheering for every new chapter of your journey.</p>
+    <p>Thank you for the characters, the stories, the laughter, and the little moments that make a screen feel brighter.</p>
+    <p class="signature">— from a fan who wishes you<br>many more beautiful chapters ♡</p>
+  </div>
+</section>
+</main>
+
+<button id="topBtn" class="top-btn" aria-label="Back to top">↑</button>
+
+<footer>
+  <div><strong>✦ A Little World of Tian Xiwei</strong><br><small>Fan-made website · Not affiliated with Tian Xiwei or her agency.</small></div>
+  <a href="https://id.wikipedia.org/wiki/Tian_Xiwei" target="_blank" rel="noopener">Source ↗</a>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>

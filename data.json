@@ -1,0 +1,139 @@
+{
+  "profile": {
+    "name": "Tian Xiwei",
+    "chineseName": "田曦薇",
+    "pinyin": "Tián Xīwēi",
+    "birthday": "14 October 1997",
+    "birthplace": "Chongqing, China",
+    "education": "Shanghai Theatre Academy",
+    "occupation": "Actress",
+    "active": "2018–present"
+  },
+  "favorites": [
+    {
+      "title": "Li Wei",
+      "work": "New Life Begins",
+      "year": "2022",
+      "type": "Character"
+    },
+    {
+      "title": "Li Yuhu",
+      "work": "Wrong Carriage, Right Groom",
+      "year": "2023",
+      "type": "Character"
+    },
+    {
+      "title": "Lin An / Ke Ke",
+      "work": "Guardians of the Dafeng",
+      "year": "2024",
+      "type": "Character"
+    },
+    {
+      "title": "Wu Zhen",
+      "work": "Moonlit Reunion",
+      "year": "2025",
+      "type": "Character"
+    },
+    {
+      "title": "Fan Changyu",
+      "work": "Pursuit of Jade",
+      "year": "2026",
+      "type": "Character"
+    }
+  ],
+  "timeline": [
+    {
+      "year": "1997",
+      "title": "A beginning",
+      "text": "Tian Xiwei was born on 14 October 1997 in Chongqing, China."
+    },
+    {
+      "year": "2018",
+      "title": "Television debut",
+      "text": "She began her screen career with Waiting for You in a Long Time."
+    },
+    {
+      "year": "2020",
+      "title": "Lovely Us",
+      "text": "She played Huang Chengzi in the youth drama Lovely Us."
+    },
+    {
+      "year": "2022",
+      "title": "New Life Begins",
+      "text": "Li Wei became one of her best-known roles and brought wider recognition."
+    },
+    {
+      "year": "2024",
+      "title": "Guardians of the Dafeng",
+      "text": "She took on the historical-fantasy role of Lin An / Ke Ke."
+    },
+    {
+      "year": "2025",
+      "title": "Moonlit Reunion",
+      "text": "Her television work continued with Moonlit Reunion."
+    },
+    {
+      "year": "2026",
+      "title": "Pursuit of Jade",
+      "text": "She starred as Fan Changyu in the historical romance Pursuit of Jade."
+    }
+  ],
+  "works": [
+    {
+      "year": "2022",
+      "title": "New Life Begins",
+      "role": "Li Wei",
+      "note": "Historical romantic comedy",
+      "category": "older"
+    },
+    {
+      "year": "2023",
+      "title": "Wrong Carriage, Right Groom",
+      "role": "Li Yuhu",
+      "note": "Historical romance",
+      "category": "older"
+    },
+    {
+      "year": "2024",
+      "title": "Guardians of the Dafeng",
+      "role": "Lin An / Ke Ke",
+      "note": "Historical fantasy adventure",
+      "category": "2024"
+    },
+    {
+      "year": "2025",
+      "title": "Moonlit Reunion",
+      "role": "Wu Zhen",
+      "note": "Television series",
+      "category": "2025"
+    },
+    {
+      "year": "2026",
+      "title": "Pursuit of Jade",
+      "role": "Fan Changyu",
+      "note": "Historical romance",
+      "category": "2026"
+    },
+    {
+      "year": "2026",
+      "title": "Born with Luck",
+      "role": "Li Qian",
+      "note": "Drama project",
+      "category": "2026"
+    }
+  ],
+  "gallery": [
+    {
+      "src": "images/tian-xiwei-1.jpg",
+      "caption": "soft & dreamy"
+    },
+    {
+      "src": "images/tian-xiwei-2.jpg",
+      "caption": "behind the scenes"
+    },
+    {
+      "src": "images/pursuit-of-jade.jpg",
+      "caption": "Pursuit of Jade era"
+    }
+  ]
+}
